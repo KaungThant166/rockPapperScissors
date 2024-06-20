@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 3.5rem;
+}
+.choices {
+  margin-bottom: 30px;
+}
+.choices button {
+  max-width: 160px;
+  font-size: 7.5rem;
+  background-color: hsla(218, 93%, 39%, 0.822);
+  margin: 0 10px;
+  text-align: center;
+  border-radius: 250px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  border: none;
+}
+.choices button:hover {
+  background-color: hsla(218, 93%, 39%, 0.7);
+}
+.choices button:active {
+  background-color: hsla(218, 93%, 39%, 0.6);
+}
+
+#playerDisplay,
+#computerDisplay {
+  font-size: 2.5rem;
+}
+
+#resultDisplay {
+  font-size: 4rem;
+}
+.greenText {
+  color: green;
+}
+.redText {
+  color: red;
+}
